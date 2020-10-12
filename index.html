@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <title>Formulario web basico</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: white;">Formato inscrpcion/reinscrpcion</h1>
+    <hr>
+    <form action="#" class="fondo">
+        <fieldset>
+            <legend class="sub">Favor de ingresar los siguientes datos</legend>
+            <div class="nombre">
+                <label for="usuario">Nombre(s):</label>
+                <input id="usuario" type="text" name="usuario" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="nombre">
+                <label for="usuario">Apellido Paterno:</label>
+                <input id="usuario" type="text" name="usuario" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="nombre">
+                <label for="usuario">Apellido Materno:</label>
+                <input id="usuario" type="text" name="usuario" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="nombre">
+                <label for="email">Correo electrónico</label>
+                <input id="email" type="text" name="email">
+            </div><br>
+            <div class="nombre">
+                <label for="email">Nombre completo de tu tutor</label>
+                <input id="tutor" type="text" name="tutor">
+            </div><br>
+            <div class="seleccion">
+                <label for="especialidad">Especialidad:</label>
+                <select name="especialidad">
+                    <option value="CONTA">Contabilidad</option>
+                    <option value="CONS">Construccion</option>
+                    <option value="ELEC">Electronica</option>
+                    <option value="LOGI">Logistica</option>
+                    <option value="ALIM">Prodduccion industrial de alimentos</option>
+                    <option value="PROG">Programacion</option>
+                    <option value="" selected="selected">Selecciona tu especialidad...</option>
+                </select>
+            </div><br>
+            <div class="caja">Semestre: <br>
+                <input type="radio" id="primer" name="semestre" value="primer">
+                <label for="primer">Primer semestre</label><br>
+                <input type="radio" id="segundo" name="semestre" value="segundo">
+                <label for="segundo">Segundo semestre</label><br>
+                <input type="radio" id="tercer" name="semestre" value="tercer">
+                <label for="tercer">Tercer semestre</label><br>
+               
+            </div><br>
+            <div class="caja">Sexo: <br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label><br>
+            </div><br>
+        <center>
+            <div class="terminos">
+                <input type="radio" id="terminos y condiciones" name="condiciones" value="terminos y condiciones">
+                <label for="terminos y condiciones">Estoy de acuerdo con <a href="#"> Terminos y condiciones </a></label>
+            </div><br> 
+                <div class="envio"><br>
+                <input class="buttoms" type="submit" name="submit" value="Enviar">
+                <input class="buttoms" type="reset" name="reset" value="Reiniciar formulario">
+            </div><br>
+        </center>
+        </fieldset>
+    </form>
+</body>
+</html>
